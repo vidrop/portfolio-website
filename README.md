@@ -130,10 +130,10 @@ const scriptURL = 'your script url'
 
 - Test submitting a contact form on the portfolio website and see if it fills up a row (if it does, you're done)
 
-## License
-
-### Click here: [MIT](LICENSE)
-
 ## Source(s)
 
 https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
+
+## License
+
+### Click here: [MIT](LICENSE)
