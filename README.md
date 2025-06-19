@@ -1,52 +1,52 @@
-# Portfolio Website: A Minimalist Scalable Responsive Portfolio Website To Showcase Projects
+# portfolio website: a minimalist scalable responsive portfolio website to showcase projects
 
-## Preview
+## preview
 
 <img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
 <img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
 <img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
 
-## View Project
+## view project
 
-### Click here: [tzolic.netlify.app](http://tzolic.netlify.app)
+### click here: [tzolic.netlify.app](http://tzolic.netlify.app)
 
-## Tools Used
+## tools Used
 
-- Frontend: CSS, JavaScript, HTML
-- Backend: Google Apps Script
-- Database: Google Sheets, JSON
+- frontend: CSS, JavaScript, HTML
+- backend: Google Apps Script
+- database: Google Sheets, JSON
 
-## Goal(s): Why Did I Build This?
+## goal(s): why did I build this?
 
-- Showcase my projects in computer science
-- Establish a professional online presence
+- showcase my projects in computer science
+- establish a professional online presence
 
-## Target Audience(s): For Who Did I Build This?
+## target audience(s): for who did I build this?
 
-- Prospective employers and clients in the computer science industry
-- Developers looking to build a portfolio website for themselves
-- Developers who already have a portfolio and are looking for some design inspiration or code snippets
-- People interested in my work
+- prospective employers and clients in the computer science industry
+- developers looking to build a portfolio website for themselves
+- developers who already have a portfolio and are looking for some design inspiration or code snippets
+- people interested in my work
 
-## Key Features
+## key Features
 
-- Integrated a JSON file with HTML using Javascript to load projects, ensuring scalability and simplicity for project updates
-- Integrated the contact form with Google Sheets using Google Apps Script to store real-time data during contact form submissions and automatically receive an email notification for each new entry
-- Incorporated a matrix rain animation effect using JavaScript to visually enhance the landing page UX design
+- integrated a JSON file with HTML using Javascript to load projects, ensuring scalability and simplicity for project updates
+- integrated the contact form with Google Sheets using Google Apps Script to store real-time data during contact form submissions and automatically receive an email notification for each new entry
+- incorporated a matrix rain animation effect using JavaScript to visually enhance the landing page UX design
 
-## How To Install This?
+## how to install this?
 
 - Clone the repository
 - Open `index.html` in your browser
 
-## How To Use This?
+## how to use this?
 
-- Modify `index.html` and `style.css` to reflect your personal branding
-- Update `projects.json` with your own projects
-- Connect a Google Sheet to the portfolio website for realtime data storage and automatic email notification for each new contact form submissions
-- Create a Google Sheet
-- Rename the sheet (the title doesn't really matter) to `portfolio contact`
-- Name the header of your sheets by filling up the first row with names that matches the `name` identifier in `index.html`
+- modify `index.html` and `style.css` to reflect your personal branding
+- update `projects.json` with your own projects
+- connect a Google Sheet to the portfolio website for realtime data storage and automatic email notification for each new contact form submissions
+- create a Google Sheet
+- rename the sheet (the title doesn't really matter) to `portfolio contact`
+- name the header of your sheets by filling up the first row with names that matches the `name` identifier in `index.html`
 
 ```html
 <input type="text" name="name" placeholder="Name" required>
@@ -55,17 +55,17 @@
 <input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
 ```
 
-For example here my name attributes are:
+for example here my name attributes are:
 
 - `name`
 - `message`
 - `phone`
 - `email`
 
-So they must be the name of the headers of my google sheet
+so they must be the name of the headers of my google sheet
 
-- Go to `Extensions` > `Google Apps Script`
-- Copy and paste this code
+- go to `Extensions` > `Google Apps Script`
+- copy and paste this code
 
 ```jsx
 var sheetName = 'portfolio contact';
@@ -119,21 +119,21 @@ function doPost(e) {
 }
 ```
 
-- Click on `Deploy` > `New Deployment`
-- Go on `Who has access` and choose `Anyone`
-- Click on `Deploy` and copy the web app URL
-- Paste the web app URL in `script.js`
+- click on `Deploy` > `New Deployment`
+- go on `Who has access` and choose `Anyone`
+- click on `Deploy` and copy the web app URL
+- paste the web app URL in `script.js`
 
 ```jsx
 const scriptURL = 'your script url'
 ```
 
-- Test submitting a contact form on the portfolio website and see if it fills up a row (if it does, you're done)
+- test submitting a contact form on the portfolio website and see if it fills up a row (if it does, you're done)
 
-## Source(s)
+## source(s)
 
 https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
 
-## License
+## license
 
-### Click here: [MIT](LICENSE)
+### click here: [MIT](LICENSE)
