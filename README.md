@@ -2,9 +2,17 @@
 
 ## preview
 
-<img src="readme/1.png" style="height: 300px; width: auto; object-fit: contain;" />
-<img src="readme/2.png" style="height: 300px; width: auto; object-fit: contain;" />
-<img src="readme/3.png" style="height: 300px; width: auto; object-fit: contain;" />
+| homepage                  |
+| ------------------------- |
+| <img src="readme/1.png"/> |
+
+| projects                  |
+| ------------------------- |
+| <img src="readme/2.png"/> |
+
+| contact                   |
+| ------------------------- |
+| <img src="readme/3.png"/> |
 
 ## view project
 
