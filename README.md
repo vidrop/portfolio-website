@@ -10,7 +10,7 @@
 
 ### click here: [tzolic.netlify.app](http://tzolic.netlify.app)
 
-## tools Used
+## tools used
 
 - frontend: CSS, JavaScript, HTML
 - backend: Google Apps Script
@@ -28,7 +28,7 @@
 - developers who already have a portfolio and are looking for some design inspiration or code snippets
 - people interested in my work
 
-## key Features
+## key features
 
 - integrated a JSON file with HTML using Javascript to load projects, ensuring scalability and simplicity for project updates
 - integrated the contact form with Google Sheets using Google Apps Script to store real-time data during contact form submissions and automatically receive an email notification for each new entry
@@ -36,8 +36,8 @@
 
 ## how to install this?
 
-- Clone the repository
-- Open `index.html` in your browser
+- clone the repository
+- open `index.html` in your browser
 
 ## how to use this?
 
