@@ -1,54 +1,34 @@
-# portfolio website: a minimalist scalable responsive portfolio website to showcase projects
+# portfolio website
 
-## preview
-
-| homepage                  |
-| ------------------------- |
-| <img src="readme/1.png"/> |
-
-| projects                  |
-| ------------------------- |
-| <img src="readme/2.png"/> |
-
-| contact                   |
-| ------------------------- |
-| <img src="readme/3.png"/> |
+### a minimalist scalable responsive portfolio website to showcase projects
 
 ## view project
 
-### click here: [tzolic.netlify.app](http://tzolic.netlify.app)
+### click here: [vidrop.netlify.app](http://vidrop.netlify.app)
 
 ## tools used
-
 - frontend: CSS, JavaScript, HTML
 - backend: Google Apps Script
 - database: Google Sheets, JSON
 
 ## goal(s): why did I build this?
-
 - showcase my projects in computer science
 - establish a professional online presence
 
-## target audience(s): for who did I build this?
-
+## target audience(s): who is this for?
 - prospective employers and clients in the computer science industry
 - developers looking to build a portfolio website for themselves
 - developers who already have a portfolio and are looking for some design inspiration or code snippets
 - people interested in my work
 
 ## key features
-
 - integrated a JSON file with HTML using Javascript to load projects, ensuring scalability and simplicity for project updates
 - integrated the contact form with Google Sheets using Google Apps Script to store real-time data during contact form submissions and automatically receive an email notification for each new entry
 - incorporated a matrix rain animation effect using JavaScript to visually enhance the landing page UX design
 
-## how to install this?
-
+## how to use this for yourself?
 - clone the repository
 - open `index.html` in your browser
-
-## how to use this?
-
 - modify `index.html` and `style.css` to reflect your personal branding
 - update `projects.json` with your own projects
 - connect a Google Sheet to the portfolio website for realtime data storage and automatic email notification for each new contact form submissions
@@ -56,19 +36,19 @@
 - rename the sheet (the title doesn't really matter) to `portfolio contact`
 - name the header of your sheets by filling up the first row with names that matches the `name` identifier in `index.html`
 
+for example in the code below my name attributes are:
+
+- `name`
+- `message`
+- `phone`
+- `email`
+
 ```html
 <input type="text" name="name" placeholder="Name" required>
 <textarea name="message" rows="4" placeholder="Message" required style="resize: none;"></textarea>
 <input type="tel" name="phone" placeholder="Phone Number" pattern="^\+?\d{1,15}$" required>
 <input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
 ```
-
-for example here my name attributes are:
-
-- `name`
-- `message`
-- `phone`
-- `email`
 
 so they must be the name of the headers of my google sheet
 
@@ -127,6 +107,12 @@ function doPost(e) {
 }
 ```
 
+- change this part of the code to your email
+
+```jsx
+var recipient = "aihduty@gmail.com";  // change to your email
+```
+
 - click on `Deploy` > `New Deployment`
 - go on `Who has access` and choose `Anyone`
 - click on `Deploy` and copy the web app URL
@@ -136,7 +122,7 @@ function doPost(e) {
 const scriptURL = 'your script url'
 ```
 
-- test submitting a contact form on the portfolio website and see if it fills up a row (if it does, you're done)
+- test submitting a contact form on the portfolio website and see if it fills up a row and that you receive a notification email (if it does, you're done)
 
 ## source(s)
 
