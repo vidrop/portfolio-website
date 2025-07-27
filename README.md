@@ -21,11 +21,6 @@
 - developers who already have a portfolio and are looking for some design inspiration or code snippets
 - people interested in my work
 
-## key features
-- integrated a JSON file with HTML using Javascript to load projects, ensuring scalability and simplicity for project updates
-- integrated the contact form with Google Sheets using Google Apps Script to store real-time data during contact form submissions and automatically receive an email notification for each new entry
-- incorporated a matrix rain animation effect using JavaScript to visually enhance the landing page UX design
-
 ## how to use this for yourself?
 - clone the repository
 - open `index.html` in your browser
@@ -127,6 +122,11 @@ const scriptURL = 'your script url'
 ## source(s)
 
 https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
+
+## key features
+- integrated a JSON file to dynamically load projects, ensuring scalability and simplicity for project updates
+- integrated the contact form with Google Sheets to store real time data during contact form submissions and automatically receive an email notification for each new entry, streamlining lead capture
+- incorporated a matrix rain animation effect to visually enhance the landing page UX design, improving visual appeal on first load
 
 ## license
 
