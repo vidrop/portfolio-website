@@ -6,22 +6,16 @@
 
 ### click here: [vidrop.netlify.app](http://vidrop.netlify.app)
 
-## tools used
+## purpose(s): why did I build this?
+- showcase my projects in computer science
+- establish a professional online presence
+
+## tools used: how did I build this?
 - frontend: CSS, JavaScript, HTML
 - backend: Google Apps Script
 - database: Google Sheets, JSON
 
-## goal(s): why did I build this?
-- showcase my projects in computer science
-- establish a professional online presence
-
-## target audience(s): who is this for?
-- prospective employers and clients in the computer science industry
-- developers looking to build a portfolio website for themselves
-- developers who already have a portfolio and are looking for some design inspiration or code snippets
-- people interested in my work
-
-## how to use this for yourself?
+## how to build your own from this?
 - clone the repository
 - open `index.html` in your browser
 - modify `index.html` and `style.css` to reflect your personal branding
