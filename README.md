@@ -119,14 +119,14 @@ const scriptURL = 'your script url'
 
 - test submitting a contact form on the portfolio website and see if it fills up a row and that you receive a notification email (if it does, you're done)
 
-## source(s)
-
-https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
-
 ## key features
 - integrated a JSON file to dynamically load projects, ensuring scalability and simplicity for project updates
 - integrated the contact form with Google Sheets to store real time data during contact form submissions and automatically receive an email notification for each new entry, streamlining lead capture
 - incorporated a matrix rain animation effect to visually enhance the landing page UX design, improving visual appeal on first load
+
+## source(s)
+
+https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
 
 ## license
 
