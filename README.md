@@ -1,21 +1,18 @@
-# portfolio website
-
-### a minimalist scalable responsive portfolio website to showcase projects
-
-## view project
-
-### click here: [vidrop.netlify.app](http://vidrop.netlify.app)
-
-## purpose(s): why did I build this?
-- showcase my projects in computer science
-- establish a professional online presence
-
-## tools used: how did I build this?
-- frontend: CSS, JavaScript, HTML
-- backend: Google Apps Script
-- database: Google Sheets, JSON
-
-## how to build your own from this?
+# portfolio website: a minimalist scalable portfolio website
+![1](1.png)
+## 🌐 view project
+### 👉 click here: https://vidrop.netlify.app/
+## 🎯 why I built it
+### ❗ problem
+github and traditional repositories can be confusing and often require technical knowledge to explore projects
+### 🧠 solution
+built a minimalist portfolio website with dynamic projects loading, a contact form to store submissions and send automatic
+email notifications, and a matrix rain animation on landing page to enhance the user experience
+### ⭐ result
+published a user-friendly portfolio that is fast and easy to maintain with automated contact handling
+## 🛠️ tools used
+css, javascript, html, google app scripts, google sheets, json
+## ⚙️ how to get your own custom portfolio website
 - clone the repository
 - open `index.html` in your browser
 - modify `index.html` and `style.css` to reflect your personal branding
@@ -33,10 +30,10 @@ for example in the code below my name attributes are:
 - `email`
 
 ```html
-<input type="text" name="name" placeholder="Name" required>
-<textarea name="message" rows="4" placeholder="Message" required style="resize: none;"></textarea>
-<input type="tel" name="phone" placeholder="Phone Number" pattern="^\+?\d{1,15}$" required>
-<input type="email" name="email" placeholder="Email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required>
+<input type="text" name="name" placeholder="name" required>
+<textarea name="message" rows="4" placeholder="message" required style="resize: none;"></textarea>
+<input type="tel" name="phone" placeholder="phone number" required>
+<input type="email" name="email" placeholder="email" required>
 ```
 
 so they must be the name of the headers of my google sheet
@@ -112,16 +109,5 @@ const scriptURL = 'your script url'
 ```
 
 - test submitting a contact form on the portfolio website and see if it fills up a row and that you receive a notification email (if it does, you're done)
-
-## key features
-- integrated a JSON file to dynamically load projects, ensuring scalability and simplicity for project updates
-- integrated the contact form with Google Sheets to store real time data during contact form submissions and automatically receive an email notification for each new entry, streamlining lead capture
-- incorporated a matrix rain animation effect to visually enhance the landing page UX design, improving visual appeal on first load
-
-## source(s)
-
+## ℹ️ source(s)
 https://www.youtube.com/watch?v=0YFrGy_mzjY&t=6662s
-
-## license
-
-### click here: [MIT](LICENSE)
