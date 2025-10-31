@@ -1,4 +1,4 @@
-# portfolio website: a minimalist scalable portfolio website
+# portfolio website: a minimalist dynamic portfolio website
 ![1](1.png)
 ## 🌐 view project
 ### 👉 click here: https://vidrop.netlify.app/
