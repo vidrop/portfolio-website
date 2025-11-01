@@ -2,16 +2,8 @@
 ![1](1.png)
 ## 🌐 view project
 ### 👉 click here: https://vidrop.netlify.app/
-## 🎯 why I built it
-### ❗ problem
-github and traditional repositories can be confusing and often require technical knowledge to explore projects
-### 🧠 solution
-built a minimalist portfolio website with dynamic projects loading, a contact form to store submissions and send automatic
-email notifications, and a matrix rain animation on landing page to enhance the user experience
-### ⭐ result
-published a user-friendly portfolio that is fast and easy to maintain with automated contact handling
-## 🛠️ tools used
-css, javascript, html, google app scripts, google sheets, json
+## 🔎 description
+built a minimalist portfolio website with dynamic project loading and a contact form with email notifications using css, javascript, html, google app scripts, google sheets, and json to make it easy for non-technical users to view my projects and contact me while simplifying portfolio maintenance
 ## ⚙️ how to get your own custom portfolio website
 - clone the repository
 - open `index.html` in your browser
